@@ -1,0 +1,64 @@
+/* GENERAL  */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  background: rgb(212, 211, 221);
+  background: linear-gradient(
+    90deg,
+    rgba(212, 211, 221, 1) 0%,
+    rgba(239, 239, 188, 1) 53%
+  );
+}
+
+h1 {
+  text-align: center;
+}
+
+/* container card  */
+
+.container__card {
+  width: 800px;
+  margin: 0 auto;
+}
+
+/* card  */
+
+.card {
+  height: 220px;
+  width: 120px;
+  background-color: #f4e7da;
+  border-radius: 10px;
+  box-shadow: 2px 5px 21p;
+}
+
+.card img {
+  margin-left: 10px;
+  margin-top: 10px;
+  background-color: rgba(255, 255, 255, 0.563);
+  border-radius: 500%;
+}
+
+.container__text {
+  text-align: center;
+  margin: 10px;
+}
+
+.container__text span {
+  padding: 2px 8px;
+  border-radius: 10px;
+  background-color: rgba(163, 163, 163, 0.281);
+}
+
+.container__text h4 {
+  margin: 10px;
+}
+
+.container__text p {
+  font-size: 12px;
+}
