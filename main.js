@@ -4,7 +4,7 @@ function showPokemon() {
     fetch(`https://pokeapi.co/api/v2/pokemon/${i}`)
     .then((res) => res.json())
     .then((data) => (containerCard.innerHTML += `
-    <div class="card">
+    <div class="card ${data.types[0].type.name}">
       <img src="${data.sprites.front_default}" alt="" />
       <div class="container__text">
         <span>#${data.id}</span>
